@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'HARDBOR';
+    src: url('fonts/HARDBOR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Hardbor', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo {
+    height: 50px;
+}
+.Logo2 {
+    height: 200px;
+    margin-left: 625px;
+} 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+main {
+    text-align: center;
+    background-image: url("images/BackgroundImage.png");
+    background-size: cover;
+    background-position: center;
+    padding: 500px 200px;
+}
+.text-box1 {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 400%;
+    color: aliceblue;
+}
+.text-box2 {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 150%;
+}
+.text-box3 {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 150%;
+    color: #000000;
+    text-align: center;
+    flex-direction: column;
+}
+.text-box4 {
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    font-size: 150%;
+}
+.PrimeiroRebanho img{
+    width:25%;
+}
+.clickable1 {
+    color: rgb(121, 19, 19);
+    font-size: 25px;
+    text-decoration:double;
+    cursor: pointer;
+    text-align: center;   
+}
+.clickable2 {
+    color: rgb(121, 19, 19);
+    font-size: 25px;
+    text-decoration:double;
+    cursor: pointer;
+    text-align: center;   
+}
+#hidden-section {
+    display: none;
+    margin-top: 10px;
+    background-color: #000000;
+    margin-bottom: 10px;
+}
+#hidden-section-2 {
+    display: none;
+    margin-top: 10px;
+    background-color: #000000;
+    margin-bottom: 10px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;   
+}
+.image-text-pair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+.image-text-pair.left img {
+    order: 0;
+}
+.image-text-pair.right img {
+    order: 1;
+}
+.image-text-pair .text {
+    width: 300px;
+    font-size: 200%;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.image-text-pair img {
+    max-width: 1200000px;
+    width: 400px; 
+    height: auto;
+    object-fit: cover; 
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.icon-grid a img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.icon-grid a img:hover {
+    transform: scale(1.1);
+}
+.section-x {
+    width: 60%; /* or any width you like */
+    margin-left: auto;
+    margin-right: auto;   
+    /* Calculate top margin as half of the left/right margins */
+    /* Left/Right margin: 20% of page width (100% - 60%) / 2 = 20% */
+    /* So top margin = 10% to be half of that */
+    margin-top: 10vw; /* using vw keeps it proportional to screen width */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.section-y {
+    width: 60%; /* or any width you like */
+    margin-left: auto;
+    margin-right: auto;   
+    /* Calculate top margin as half of the left/right margins */
+    /* Left/Right margin: 20% of page width (100% - 60%) / 2 = 20% */
+    /* So top margin = 10% to be half of that */
+    text-align: center;
+}
+.Ciber {
+    height: 500px;
+    margin-left: 250px;
+}
+h1 {
+    font-size: 75px;    
+}
+.latest-song {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.latest-song .text-box2 {
+    font-size: 300%;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.latest-song-image {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.latest-song-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
