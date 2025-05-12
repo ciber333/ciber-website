@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <a href="home.html"><img src="images/CiberLogo.png" alt="Logo" class="logo"></a>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+    <section class="section-z">
+        <h1 style="text-align: center;">Projects</h1>
+        <p class="clickable1" onclick="toggleSection('hidden-section')">Primeiro Rebanho</p>
+    </section>
+    <div id="hidden-section">
+        <p>
+            <div class="text-box1">The first temple was a chapel. Scattered, sampled. With flowers of flame.</div>
+            <div class="PrimeiroRebanho">
+                <section class="gallery">
+                    <div class="image-text-pair left">
+                        <img src="images/PrimeiroRebanho_MalesMeus/image1_PrimeiroRebanho_Projects.jpg" alt="Image 1">
+                        <div class="text">sampled</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">flowers of flame</div>
+                        <img src="images/PrimeiroRebanho_MalesMeus/image2_PrimeiroRebanho_Projects.jpg" alt="Image 2">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/PrimeiroRebanho_MalesMeus/image4_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                        <div class="text">fear</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">anak</div>
+                        <img src="images/PrimeiroRebanho_MalesMeus/image5_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/PrimeiroRebanho_MalesMeus/image3_PrimeiroRebanho_Projects.jpg" alt="Image 3">
+                        <div class="text">chance</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">guita</div>
+                        <img src="images/PrimeiroRebanho_MalesMeus/image6_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/PrimeiroRebanho_MalesMeus/image7_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                        <div class="text">birth</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">ashes</div>
+                        <img src="images/PrimeiroRebanho_MalesMeus/image8_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/PrimeiroRebanho_MalesMeus/image9_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                        <div class="text">fire</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">fundo</div>
+                        <img src="images/PrimeiroRebanho_MalesMeus/image10_PrimeiroRebanho_Projects.jpg" alt="Image 4">
+                    </div>
+                </section>  
+            </div>
+        </p>
+    </div>
+    <p class="clickable2" onclick="toggleSection('hidden-section-2')">Segundo Rebanho</p>
+    <div id="hidden-section-2" style="display: none;">
+        <p>
+            <div class="text-box1">The second temple was the church. The witch showed me the way. I'll walk alone.</div>
+            <div class="SegundoRebanho">
+                <section class="gallery">
+                    <div class="image-text-pair left">
+                        <img src="images/Segundo Rebanho_Nina/untitled11121.jpg" alt="Image 1">
+                        <div class="text">prayer</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">love</div>
+                        <img src="images/Segundo Rebanho_Nina/untit1111led.jpg" alt="Image 2">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/Segundo Rebanho_Nina/untitled11131.jpg" alt="Image 1">
+                        <div class="text">bruxa</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">metal-flower</div>
+                        <img src="images/Segundo Rebanho_Nina/untitled11141.jpg" alt="Image 2">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/Segundo Rebanho_Nina/untitled11151.jpg" alt="Image 1">
+                        <div class="text">ring</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">agonia</div>
+                        <img src="images/Segundo Rebanho_Nina/untitled11161.jpg" alt="Image 2">
+                    </div>
+                    <div class="image-text-pair left">
+                        <img src="images/Segundo Rebanho_Nina/untitled11171.jpg" alt="Image 1">
+                        <div class="text">origin</div>
+                    </div>
+                    <div class="image-text-pair right">
+                        <div class="text">redemption</div>
+                        <img src="images/Segundo Rebanho_Nina/untitled11181.jpg" alt="Image 2">
+                    </div>    
+                     <div class="image-text-pair left">
+                         <img src="images/Segundo Rebanho_Nina/untitled11191.jpg" alt="Image 1">
+                        <div class="text">closet</div>
+                    </div>
+                    </div>
+                </section>
+            </div>
+        </p>
+    </div>
+    <script>
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
+        }
+    </script>
+    <section class="latest-song">
+        <div class="text-box2">Listen to Ciber's latest song:</div>
+        <a href="https://open.spotify.com/album/2DF20HTnIsMGQSSwzhVSXA?si=bpzDsRKJRPOvw5IOQRuH8Q" target="_blank">
+            <img src="images/WasteCover.png" alt="Latest Song" class="latest-song-image">
+        </a>
+        <div class="text-box3">Waste (Extended Version)</div>
+    </section>
+</html>
